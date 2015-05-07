@@ -1,0 +1,2 @@
+Ici se trouvent les fichiers de sequences à charger.
+Indiquer ligne par ligne le chemin des vidéos à charger, d'abord dans le fichier training.txt pour la phase d'entrainement, puis dans le fichier sequence1.txt.

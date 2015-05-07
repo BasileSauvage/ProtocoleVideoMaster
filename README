@@ -1,0 +1,19 @@
+compilation de l'app :
+
+- Qt 4 (en particulier, qt4_core, qt4_highui, qmake-qt4 )
+- lecteur video : sudo apt-get install libgstreamer1.30-dev
+puis installer les plugins
+par exemple, pour du .avi :
+( si ubuntu 14 )
+sudo add-apt-repository ppa:mc3man/trusty-media
+sudo apt-get update
+(dans tous les cas)
+sudo apt-get install gstreamer0.10-ffmpeg
+
+- pour utiliser la library opencv,
+sudo apt-get install libopencv-core-dev libopencv-highgui-dev
+
+ouvrir le .pro, verifier le lien vers les includes d'opencv (normalement /usr/local/include )
+lancer compil.sh
+
+Rajouter les videos et modifier sequence1.txt pour aller chercher les videos du test, et training.txt pour les videos destinées à la phase d'entrainement.

@@ -1,0 +1,8 @@
+Ici sont placé les résultats,
+les fichiers sont nommé de la façon suivante :
+resultat_"Date"
+
+Le fichier est constitué d'ensemble de 4 lignes :
+On a, dans l'ordre, les trois vidéos de la comparaison, la référence, la première vidéo dégradé puis la deuxième.
+Ensuite viennent les infos relatif à l'utilisateur par rapport a ces vidéos :
+Le premier numéro indique le choix de l'utilisateur, 1 pour la première vidéo dégradé du triplet, et 2 pour l'autre. Le deuxième nombre indique le temps de réponse en ms.
