@@ -299,7 +299,7 @@ void CentralWidget::startTest()
     m_videosWidget->resizeLayout(LAYOUT_VIDEOS_WIDTH_T, LAYOUT_VIDEOS_HEIGHT_T);
 
     //Creation et chargement de la séquence de test
-    m_videosWidget->loadSequence("./sequence/sequence1.txt");
+	m_videosWidget->loadSequence("./sequence/sequence.txt");
 
     //Passage au test reel
     m_state = Test;
