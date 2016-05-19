@@ -1,0 +1,9 @@
+0-dragon_phong_REF.avi
+3-dragon_phong_simplif_8k.avi
+2-dragon_phong_simplif_20k.avi
+0-dragon_phong_REF.avi
+2-dragon_phong_quantif_1024.avi
+3-dragon_phong_quantif_768.avi
+0-dragon_phong_REF.avi
+1-dragon_phong_simplif_48k.avi
+1-dragon_phong_quantif_1536.avi

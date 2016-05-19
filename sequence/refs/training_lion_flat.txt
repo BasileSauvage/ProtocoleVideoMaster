@@ -1,0 +1,9 @@
+0-lion_flat_REF.avi
+3-lion_flat_quantif_768.avi
+2-lion_flat_quantif_1024.avi
+0-lion_flat_REF.avi
+2-lion_flat_simplif_12k.avi
+3-lion_flat_simplif_3k.avi
+0-lion_flat_REF.avi
+1-lion_flat_quantif_1536.avi
+1-lion_flat_simplif_21k.avi

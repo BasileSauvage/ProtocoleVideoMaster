@@ -1,0 +1,9 @@
+0-dragon_flat_REF.avi
+2-dragon_flat_quantif_1024.avi
+3-dragon_flat_quantif_768.avi
+0-dragon_flat_REF.avi
+3-dragon_flat_simplif_8k.avi
+2-dragon_flat_simplif_20k.avi
+0-dragon_flat_REF.avi
+1-dragon_flat_quantif_1536.avi
+1-dragon_flat_simplif_48k.avi
