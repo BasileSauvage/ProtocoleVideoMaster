@@ -127,7 +127,7 @@ void VideosWidget::stop()//Les vidéos sont arretées
 
 void VideosWidget::play()//Les videos sont relancé
 {
-    m_timer->start(42);
+    m_timer->start(40);
 }
 
 void VideosWidget::start()
@@ -170,7 +170,7 @@ bool VideosWidget::loadNext()
 void VideosWidget::runVideos()
 {
     //Affichage des frames suivantes de chaque videos
-    if(m_cmpFrames < 230)
+    if(m_cmpFrames < 360)
     {
     for(int i = 0;i<m_videos.size();i++)
     {
@@ -222,7 +222,7 @@ void VideosWidget::organizeLayout(double resolution)
                 //On determine de même la taille final des vidéos en évitant les chevauchements.
                // if(((m_width - 4*LAYOUT_SPACE)/3)*resolution <= m_height - 2*LAYOUT_SPACE)
                     for(int i = 0; i < m_videos.size();i++)
-                        m_videos[i]->setFixedSize((m_width - 4*LAYOUT_SPACE - LAYOUT_LABEL)/3 ,(m_height - 2*LAYOUT_V_SPACE - LAYOUT_LABEL) );
+                        m_videos[i]->setFixedSize((m_width - 4*LAYOUT_SPACE)/3 ,(m_height - 2*LAYOUT_V_SPACE - LAYOUT_LABEL) );
                /* else
                     for(int i = 0; i < m_videos.size();i++)
                         m_videos[i]->setFixedSize((m_height - 2*LAYOUT_V_SPACE)/resolution, m_height - 2*LAYOUT_V_SPACE);*/
@@ -259,5 +259,3 @@ void VideosWidget::showVideos()
         m_videos[i]->show();
     }
 }
-
-

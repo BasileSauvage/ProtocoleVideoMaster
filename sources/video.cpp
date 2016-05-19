@@ -23,13 +23,11 @@ Video::Video(QWidget *parent) :
 
     //Creation du label affichant les frames de la video
     m_label = new QLabel;
-    m_label->setScaledContents(true);//la video s'adapte à l'écran
+    m_label->setScaledContents(false);//la video s'adapte à l'écran
     m_layout->addWidget(m_label);
-
 
     m_capture = NULL;
     m_image = NULL;
-
 }
 
 Video::~Video()

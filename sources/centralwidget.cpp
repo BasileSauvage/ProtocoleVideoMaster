@@ -129,7 +129,7 @@ void CentralWidget::endLoop()
     //Arrêt des videos
     m_videosWidget->stop();
     if(m_state == Training) //Affichage de texte pendant la phase d'entrainement
-        m_info->setText("<html><div>30 Secondes se sont écoulées,</div><div>les vidéos s'arrètent,</div><div>vous devez faire votre choix.</div></html>");
+        m_info->setText("<html><div>30 Secondes se sont écoulées,</div><div>les vidéos s'arrêtent,</div><div>vous devez faire votre choix.</div></html>");
 }
 
 
@@ -202,18 +202,15 @@ void CentralWidget::nextTest()
             m_videosWidget->runVideos();
             m_videosWidget->play();
             m_videosWidget->showVideos();
-            m_compareTimer->start(30000);
+            m_compareTimer->start(28800);
 
         }
-
-
         break;
     case Test :
             if(!m_videosWidget->loadNext())
             {
                 //Fin du test
                 endTest();
-
             }
             else
             {
@@ -226,9 +223,9 @@ void CentralWidget::nextTest()
             //Lancement des videos et des timers
             m_videosWidget->runVideos();
             m_videosWidget->play();
-            m_compareTimer->start(30000);
+            m_compareTimer->start(28800);
             m_videosWidget->showVideos();
-            m_time->restart();    
+            m_time->restart();
             }
         break;
     default :
@@ -269,6 +266,7 @@ void CentralWidget::startTraining()
     m_layout->addWidget(m_startTestButton, 7, 3, 1, 6, Qt::AlignCenter);
 
 
+    m_videosWidget->resizeLayout(LAYOUT_VIDEOS_WIDTH, LAYOUT_VIDEOS_HEIGHT);
 
     //Creation et chargement de la séquence de test d'entrainement
     m_videosWidget->loadSequence("./sequence/training.txt");
@@ -375,5 +373,3 @@ void CentralWidget::cleanButton()
     m_quitButton->hide();
     m_startTestButton->hide();
 }
-
-
