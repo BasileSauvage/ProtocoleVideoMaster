@@ -246,24 +246,24 @@ void CentralWidget::startTraining()
 
     m_layout->addWidget(m_videosWidget, 1, 0, 5, 12, Qt::AlignCenter);
 
-    m_layout->addWidget(m_buttons[0], 6, 1, 2, 4, Qt::AlignCenter);
-    m_buttons[0]->setFixedSize((LAYOUT_VIDEOS_WIDTH - 3*LAYOUT_SPACE)/3, 80);
-    m_layout->addWidget(m_buttons[1], 6, 7, 2, 4, Qt::AlignCenter);
-    m_buttons[1]->setFixedSize((LAYOUT_VIDEOS_WIDTH - 3*LAYOUT_SPACE)/3, 80);
+	m_layout->addWidget(m_buttons[0], 6, 1, 2, 4, Qt::AlignCenter);
+	m_buttons[0]->setFixedSize((LAYOUT_VIDEOS_WIDTH - 3*LAYOUT_SPACE)/3, 40);
+	m_layout->addWidget(m_buttons[1], 6, 7, 2, 4, Qt::AlignCenter);
+	m_buttons[1]->setFixedSize((LAYOUT_VIDEOS_WIDTH - 3*LAYOUT_SPACE)/3, 40);
 
 
-    m_reStartTrainingButton->setFixedSize((LAYOUT_VIDEOS_WIDTH - 3*LAYOUT_SPACE)/2, 40);
-    m_layout->addWidget(m_reStartTrainingButton, 7, 0, 1, 6, Qt::AlignCenter);
-    m_startTrainingButton->setFixedSize((LAYOUT_VIDEOS_WIDTH - 3*LAYOUT_SPACE)/2, 40);
-    m_layout->addWidget(m_startTrainingButton, 7, 3, 1, 6, Qt::AlignCenter);
-    m_nextButton->setFixedSize((LAYOUT_VIDEOS_WIDTH - 3*LAYOUT_SPACE)/2, 40);
-    m_layout->addWidget(m_nextButton, 7, 3, 1, 6, Qt::AlignCenter);
-    m_startButton->setFixedSize((LAYOUT_VIDEOS_WIDTH - 3*LAYOUT_SPACE)/2, 40);
-    m_layout->addWidget(m_startButton, 7, 6, 1, 6, Qt::AlignCenter);
-    m_quitButton->setFixedSize((LAYOUT_VIDEOS_WIDTH - 3*LAYOUT_SPACE)/2, 40);
-    m_layout->addWidget(m_quitButton, 7, 4, 1, 4, Qt::AlignCenter);
-    m_startTestButton->setFixedSize((LAYOUT_VIDEOS_WIDTH - 3*LAYOUT_SPACE)/2, 40);
-    m_layout->addWidget(m_startTestButton, 7, 3, 1, 6, Qt::AlignCenter);
+	m_reStartTrainingButton->setFixedSize((LAYOUT_VIDEOS_WIDTH - 3*LAYOUT_SPACE)/2, 30);
+	m_layout->addWidget(m_reStartTrainingButton, 6, 0, 1, 6, Qt::AlignCenter);
+	m_startTrainingButton->setFixedSize((LAYOUT_VIDEOS_WIDTH - 3*LAYOUT_SPACE)/2, 30);
+	m_layout->addWidget(m_startTrainingButton, 6, 3, 1, 6, Qt::AlignCenter);
+	m_nextButton->setFixedSize((LAYOUT_VIDEOS_WIDTH - 3*LAYOUT_SPACE)/2, 30);
+	m_layout->addWidget(m_nextButton, 6, 3, 1, 6, Qt::AlignCenter);
+	m_startButton->setFixedSize((LAYOUT_VIDEOS_WIDTH - 3*LAYOUT_SPACE)/2, 30);
+	m_layout->addWidget(m_startButton, 6, 6, 1, 6, Qt::AlignCenter);
+	m_quitButton->setFixedSize((LAYOUT_VIDEOS_WIDTH - 3*LAYOUT_SPACE)/2, 30);
+	m_layout->addWidget(m_quitButton, 6, 4, 1, 4, Qt::AlignCenter);
+	m_startTestButton->setFixedSize((LAYOUT_VIDEOS_WIDTH - 3*LAYOUT_SPACE)/2, 30);
+	m_layout->addWidget(m_startTestButton, 6, 3, 1, 6, Qt::AlignCenter);
 
 
     m_videosWidget->resizeLayout(LAYOUT_VIDEOS_WIDTH, LAYOUT_VIDEOS_HEIGHT);

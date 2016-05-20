@@ -60,6 +60,9 @@ double Video::setVideo(const std::string path)
     //QMessageBox::information(0, "error", "ok");
 
 //    if(!m_cap.open("videos/0-Gong_28k.avi")) //Si echec, -1, sinon resolution
+
+	m_cap.set(CV_CAP_PROP_FOURCC, CV_FOURCC('A', 'V', 'C', '1'));
+
 	if(!m_cap.open(path)) //Si echec, -1, sinon resolution
 		return -1;
     else
