@@ -32,7 +32,7 @@ enum State
 //#define LAYOUT_R_T LAYOUT_VIDEOS_HEIGHT_T/LAYOUT_VIDEOS_WIDTH_T ///< Resolution de l'espace vidéo pendant la pahse d'entraînement
 
 #define NB_TEST 100 ///< Nombre de comparaison maximum lors d'un test
-#define LAYOUT_HEIGHT 1050 ///< Hauteur de l'espace de travail en temps normal
+#define LAYOUT_HEIGHT 1000 ///< Hauteur de l'espace de travail en temps normal
 #define LAYOUT_VIDEOS_HEIGHT 720 ///< Hauteur de l'espace d'affichage des vidéos en temps normal [EDIT BASILE: phase d'entrainement]
 #define LAYOUT_VIDEOS_HEIGHT_T 900 ///< Hauteur de l'espace d'affichage des vidéos pendant la phase d'entraînement [EDIT BASILE: phase de test]
 #define LAYOUT_WIDTH 1200 ///< Largeur de l'espace de travail en temps normal
